@@ -1,0 +1,27 @@
+server:
+  port: 9030
+
+spring:
+  application:
+    name: company-info-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/companyinfo
+    username: postgres
+    password: 055090323
+  kafka:
+    bootstrap-servers: localhost:32768
+    consumer:
+      group-id: company-info-api
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhsot:8762
+
+loggin:
+  level:
+    com.epcorpt: DEBUG
+
+config:
+  kafka:
+    topic: comp_info

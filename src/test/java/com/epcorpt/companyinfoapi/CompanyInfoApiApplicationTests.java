@@ -1,0 +1,13 @@
+package com.epcorpt.companyinfoapi;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class CompanyInfoApiApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
